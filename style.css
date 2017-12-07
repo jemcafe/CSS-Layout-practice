@@ -1,11 +1,27 @@
 body {
-    background-color: tan;
     margin: 0;
 }
 
 .panel > div {
     width: 600px;
     margin: 0 auto;
+}
+
+.primary-header {
+    background-color: purple;
+}
+
+.primary-header nav {
+    display: flex;
+    justify-content: space-between
+}
+
+.primary-header nav .left {
+    background-color: yellow;
+}
+
+.primary-header nav .right {
+    background-color: blue;
 }
 
 .primary-content-wrap {
