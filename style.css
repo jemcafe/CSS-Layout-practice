@@ -4,23 +4,22 @@ body {
 }
 
 .panel > div {
-    width: 35em;
+    width: 600px;
     margin: 0 auto;
 }
 
-.primary-header {
+.primary-content-wrap {
+    display: flex;
     background-color: red;
 }
 
-.primary-header > div {
+aside {
+    width: 200px;
     background-color: lightskyblue;
 }
 
-.primary-content {
+main {
+    flex: 1;
     background-color: green;
-}
-
-.primary-content > div {
-    background-color: pink;
 }
 
