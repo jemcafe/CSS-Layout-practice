@@ -1,5 +1,5 @@
 body {
-    background: pink;
+    background: rgb(255, 213, 221);
     margin: 0;
 }
 
@@ -11,14 +11,15 @@ body {
 /* ------------------------------- */
 
 .primary-header {
-    background-color: slateblue;
+    background-color: rgb(72, 186, 194);
     margin-bottom: 25px;
 }
 
 .primary-header nav {
     display: flex;
     justify-content: space-between;
-    height: 50px;
+    height: 54px;
+    background-color: blue;
 }
 
 .primary-header nav .left {
@@ -51,13 +52,14 @@ main {
 /* ------------------------ */
 
 .primary-footer {
-    background-color: slateblue;
+    background-color: rgb(72, 186, 194);
 }
 
 .primary-footer nav {
     display: flex;
     justify-content: space-between;
     height: 90px;
+    background-color: blue;
 }
 
 .primary-footer nav .left {
@@ -73,19 +75,20 @@ main {
 /* ------------------------ */
 
     /* ---- right ---- */
-.user-image-header {
+.user-repo-menu {
     width: 50px;
     background-color: red;
 }
 
-.user-repo-menu {
+.user-image-header {
     width: 50px;
-    background-color: green;
+    background-color: yellow;
 }
     /* ---- left ---- */
-.github-logo {
+
+.primary-header .github-logo {
     width: 50px;
-    background-color: red;
+    background-color: rgb(137, 55, 245)
 }
 
 .search-bar {
@@ -142,17 +145,40 @@ aside > div {
 
 /* ------------------------------ */
 
-main > div {
-    width: 240;
-    /* margin-bottom: 10px; */
-}
-
-.main-menu {
+main nav {
+    display: flex;
+    height: 51px;
     background-color: rgb(238, 238, 151);
 }
 
+main nav .right{
+    display: flex;
+    background: lightgreen;
+}
+
+.main-overview {
+    width: 100px;
+    background-color: rgb(165, 165, 235);
+}
+.main-repos {
+    width: 125px;
+    background-color: rgb(142, 70, 175);
+}
+.main-stars {
+    width: 85px;
+    background-color: rgb(165, 165, 235);
+}
+.main-followers {
+    width: 120px;
+    background-color: rgb(142, 70, 175);
+}
+.main-following {
+    width: 120px;
+    background-color: rgb(165, 165, 235);
+}
+
 .popular-repos {
-    background-color: blue;
+    background-color: green;
 }
 
 .contributions {
@@ -160,7 +186,7 @@ main > div {
 }
 
 .activity {
-    background-color: blue;
+    background-color: green;
 }
 
 /* ------------------------------ */
@@ -195,33 +221,43 @@ main > div {
     width: 46px;
     background-color: yellow;
 }
+
+    /* ---- middle ---- */
+
+.primary-footer .github-logo {
+    width: 50px;
+    background-color: fuchsia;
+    /* margin: auto; */
+}
+
     /* ---- right ---- */
+
 .contact-github {
-    width: 20px;
+    width: 100px;
     background-color: red;
 }
 
 .api {
-    width: 20px;
+    width: 35px;
     background-color: yellow;
 }
 
 .training {
-    width: 20px;
+    width: 63px;
     background-color: red;
 }
 
 .shop {
-    width: 20px;
+    width: 43px;
     background-color: yellow;
 }
 
 .blog {
-    width: 20px;
+    width: 44px;
     background-color: red;
 }
 
 .about {
-    width: 20px;
+    width: 40px;
     background-color: yellow;
 }
