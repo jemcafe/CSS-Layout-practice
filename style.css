@@ -1,28 +1,37 @@
 body {
+    background: pink;
     margin: 0;
 }
 
 .panel > div {
-    width: 600px;
+    width: 980px;
     margin: 0 auto;
 }
 
+/* ------------------------------- */
+
 .primary-header {
-    background-color: purple;
+    background-color: slateblue;
+    margin-bottom: 25px;
 }
 
 .primary-header nav {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    height: 50px;
 }
 
 .primary-header nav .left {
+    display: flex;
     background-color: yellow;
 }
 
 .primary-header nav .right {
-    background-color: blue;
+    display: flex;
+    background-color: orange;
 }
+
+/* ------------------------------ */
 
 .primary-content-wrap {
     display: flex;
@@ -30,12 +39,189 @@ body {
 }
 
 aside {
-    width: 200px;
-    background-color: lightskyblue;
+    width: 240px;
+    background-color: green;
 }
 
 main {
     flex: 1;
-    background-color: green;
+    background-color: lightgreen;
 }
 
+/* ------------------------ */
+
+.primary-footer {
+    background-color: slateblue;
+}
+
+.primary-footer nav {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.primary-footer nav .left {
+    display: flex;
+    background-color: yellow;
+}
+
+.primary-footer nav .right {
+    display: flex;
+    background-color: orange;
+}
+
+/* ------------------------ */
+
+    /* ---- right ---- */
+.user-image-header {
+    width: 50px;
+    background-color: red;
+}
+
+.user-repo-menu {
+    width: 50px;
+    background-color: green;
+}
+    /* ---- left ---- */
+.github-logo {
+    width: 50px;
+    background-color: red;
+}
+
+.search-bar {
+    width: 300px;
+    background-color: yellow;
+}
+
+.pull-request {
+    width: 100px;
+    background-color: red;
+}
+
+.issues {
+    width: 75px;
+    background-color: yellow;
+}
+
+.marketplace {
+    width: 100px;
+    background-color: red;
+}
+
+.explore {
+    width: 65px;
+    background-color: yellow;
+}
+
+/* ------------------------------ */
+
+aside > div {
+    width: 240;
+    /* margin-bottom: 10px; */
+}
+
+.user-image-side {
+    height: 240px;
+    background-color: rgb(104, 104, 212);
+}
+
+.username {
+    height: 50px;
+    background-color: orange;
+}
+
+.add-a-bio {
+    height: 50px;
+    background-color: rgb(104, 104, 212);
+}
+
+.edit-profile {
+    height: 75px;
+    background-color: orange;
+}
+
+/* ------------------------------ */
+
+main > div {
+    width: 240;
+    /* margin-bottom: 10px; */
+}
+
+.main-menu {
+    background-color: rgb(238, 238, 151);
+}
+
+.popular-repos {
+    background-color: blue;
+}
+
+.contributions {
+    background-color: rgb(238, 238, 151);
+}
+
+.activity {
+    background-color: blue;
+}
+
+/* ------------------------------ */
+
+    /* ---- left ---- */
+.copyright {
+    width: 120px;
+    background-color: red;
+}
+
+.terms {
+    width: 47px;
+    background-color: yellow;
+}
+
+.privacy {
+    width: 60px;
+    background-color: red;
+}
+
+.security {
+    width: 60px;
+    background-color: yellow;
+}
+
+.status {
+    width: 55px;
+    background-color: red;
+}
+
+.help {
+    width: 46px;
+    background-color: yellow;
+}
+    /* ---- right ---- */
+.contact-github {
+    width: 20px;
+    background-color: red;
+}
+
+.api {
+    width: 20px;
+    background-color: yellow;
+}
+
+.training {
+    width: 20px;
+    background-color: red;
+}
+
+.shop {
+    width: 20px;
+    background-color: yellow;
+}
+
+.blog {
+    width: 20px;
+    background-color: red;
+}
+
+.about {
+    width: 20px;
+    background-color: yellow;
+}
